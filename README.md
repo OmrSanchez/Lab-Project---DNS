@@ -25,7 +25,9 @@ Step 1.	Open the command prompt and use the command >ipconfig /all. From here, I
     iii.	DNS Server: 10.10.20.3
 
 Step 2.	Ping Default Gateway from “Windows Desktop 1” VM. >ping 10.10.40.254  Success.
+
 Step 3.	Ping DNS server from “Windows Desktop 1” VM using the command >ping 10.10.20.3. 
+
 Step 4.	Command returned “Request timed out”. I know a message like this generally means no connectivity to the device, however specifically it can also mean a few more things.
 
     i.	There is a route missing either to the DNS server from the default gateway (router) or from the DNS server to the default gateway (router).
